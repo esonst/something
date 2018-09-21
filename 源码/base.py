@@ -45,7 +45,7 @@ def login_post(flag,url,jar):
         req=requests.post(url,data=data,cookies=jar,headers=headers,timeout=5)
     except:
         print("连接超时")
-    return req,stuid,password
+    return req,stuid,password,checkcode
 
 
 def get_signcode(signurl,jar):
