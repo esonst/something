@@ -1,8 +1,11 @@
+#请在文件夹内创建一个名为"dataset"的文件夹，否则无法使用。
+
 ## robot V1.0 使用说明
 
 首先请将robot.exe文件放入一个空的文件夹。
 
 运行时，产生的文件说明如下:
+dataset文件夹内保存着验证码的数据，请攒多了打包为zip发至邮箱eson.xin@gmail.com
 "pass.txt": 保存账号及密码
 ”logcode.gif“: 登陆验证码
 "verycode.gif": 选课验证码
