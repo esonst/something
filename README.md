@@ -15,3 +15,5 @@ dataset文件夹内保存着验证码的数据，请攒多了打包为zip发至�
 欢迎各位参与本软件的测试工作
 ## robot V1.1 
 修复bug
+## robot V1.2
+修改printf函数

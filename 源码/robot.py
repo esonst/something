@@ -110,7 +110,7 @@ while(True):
         sys.stdout.flush()
         time.sleep(2)
         if(len(alist)>0):
-            n=print(alist)
+            n=printf(alist)
             if(n>0):
                 ctypes.windll.user32.MessageBoxA(0,u"有报告了！".encode('gb2312'),u' 信息'.encode('gb2312'),0)
                 signcode=choose(len(alist),signurl,stuid,jar)

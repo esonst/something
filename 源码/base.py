@@ -23,13 +23,13 @@ def login_post(flag,url,jar):
                 raise Exception('无保存密码')
             stuid=info[:10]
             password=info[10:]
-            print("stuid="+stuid)
+            print("student_id="+stuid)
             print("password="+password)
         except:
             stuid=input("student_id=")
             password=input("password=")
     else:
-        stuid=input("id=")
+        stuid=input("student_id=")
         password=input("password=")
     checkcode=input("验证码=")
     data={"__VIEWSTATE":"/wEPDwUENTM4MWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFEl9jdGwwOkltYWdlQnV0dG9uMQ0NODyO1wx8Du/Dppbl8bfJw0UTfwwIEHKsvYbP9Nqt",
